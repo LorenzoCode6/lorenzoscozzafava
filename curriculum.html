@@ -3,10 +3,19 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Curriculum - Lorenzo Scozzafava</title>
+      <meta name="description" content="Portfolio di Lorenzo Scozzafava, UX/UI Designer, 3D Artist e Graphic Designer italiano.">
+      <meta name="author" content="Lorenzo Scozzafava">
+      <meta name="keywords" content="UX, UI, 3D, design, grafica, portfolio, Lorenzo Scozzafava, artista 3D, web designer, branding">
+
+      <meta property="og:title" content="Curriculum - Lorenzo Scozzafava - UX/UI Designer e 3D Artist">
+      <meta property="og:description" content="Portfolio di Lorenzo Scozzafava, UX/UI Designer, 3D Artist e Graphic Designer italiano.">
+      <meta property="og:url" content="https://lorenzocode6.github.io/lorenzoscozzafava/curriculum.html">
+      <meta property="og:type" content="website">
+
+      <title>Curriculum - Lorenzo Scozzafava - UX/UI Designer e 3D Artist</title>
       <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="assets/css/style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -14,7 +23,7 @@
   </head>
   <body class="space-mono-regular">
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-md navbar-dark bg-black py-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-black py-4" role="navigation" aria-label="Menu principale">
         <div class="container">
           <a href="index.html" style="font-family: 'PP Editorial Italic'; font-style: italic; text-decoration: none; font-size: 19.75px;">Lorenzo Scozzafava</a>
           <input type="checkbox" id="toggle-menu" class="d-md-none">
@@ -32,11 +41,11 @@
       </nav>
     </header>
 
-    <section class="top-section curriculum">
+    <section class="top-section curriculum" aria-labelledby="curriculum">
       <h2 class="titles text-center">Curriculum</h2>
       <div class="row mb-5 flex-column flex-sm-row">
         <div class="d-none d-md-block col-1 col-lg-2"></div>
-          <div class="col-12 col-sm-5 col-md-4 col-lg-3 pb-5 skills">
+          <div class="col-12 col-sm-5 col-md-4 col-lg-3 pb-5 skills" aria-labelledby="skills">
           <h3>Skills</h3>
           <h5>Autodesk Maya</h5>
           <p>Modellazione hard surface, UV mapping.</p>
@@ -52,7 +61,7 @@
           <p>Photo editing, compositing.</p>
         </div>
         <div class="d-none d-sm-block col-1 border-bottom pb-5"></div>
-        <div class="col-12 col-sm-6 col-md-5 col-lg-4 experiences border-bottom pb-5">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 experiences border-bottom pb-5" aria-labelledby="esperienze">
           <h3>Esperienze</h3>
           <h5>Social media manager</h5>
           <p>Geck'o torteria | Mar 2024 - Giu 2024</p>
@@ -72,7 +81,7 @@
 
       <div class="row">
         <div class="d-none d-md-block col-1 col-lg-2"></div>
-        <div class="col-12 col-sm-5 col-md-4 col-lg-3 interests">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 interests" aria-labelledby="Interessi">
           <h3 class="p-0">Interessi</h3>
           <div>
             <div>
@@ -102,7 +111,7 @@
           </div>
         </div>
         <div class="d-none d-sm-block col-1"></div>
-        <div class="col-12 col-sm-6 col-md-5 col-lg-4 experiences">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 experiences" aria-labelledby="Formazione">
           <h3>Formazione</h3>
           <h5>User experience: the beginner's guide</h5>
           <p>Interaction Design Foundation | Lug 2024 - Aug 2024</p>
@@ -118,14 +127,14 @@
       </div>
     </section>
 
-    <footer class="container py-5 d-flex flex-column flex-lg-row justify-content-between">
+    <footer class="container py-5 d-flex flex-column flex-lg-row justify-content-between" role="contentinfo">
       <div class="small-custom">
         <p>© Lorenzo Scozzafava | P.IVA <strong> IT38516820612 | 2025 </strong></p>
       </div>
       <div>
-        <a href="https://github.com/LorenzoCode6" class="text-white me-2"><img src="assets/icons/github.svg" width="24.71" alt="github"></a>
-        <a href="https://www.instagram.com/zioscozz_?igsh=MTh4M3F2N2h3bWZ3OA%3D%3D&utm_source=qr" class="text-white me-2"><img src="assets/icons/instagram.svg" width="24.71" alt="instagram"></a>
-        <a href="https://www.linkedin.com/in/lorenzo-scozzafava" class="text-white"><img src="assets/icons/linkedin.svg" width="24.71" alt="linkedin"></a>
+        <a href="https://github.com/LorenzoCode6" aria-label="Profilo GitHub" class="text-white me-2"><img src="assets/icons/github.svg" width="24.71" alt="github"></a>
+        <a href="https://www.instagram.com/zioscozz_?igsh=MTh4M3F2N2h3bWZ3OA%3D%3D&utm_source=qr" aria-label="Profilo Instagram" class="text-white me-2"><img src="assets/icons/instagram.svg" width="24.71" alt="instagram"></a>
+        <a href="https://www.linkedin.com/in/lorenzo-scozzafava" aria-label="Profilo Linkedin" class="text-white"><img src="assets/icons/linkedin.svg" width="24.71" alt="linkedin"></a>
       </div>
     </footer>
   </body>

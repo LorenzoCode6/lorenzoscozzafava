@@ -1,12 +1,12 @@
 @font-face {
   font-family: "PP Editorial Regular";
-  src: url("assets/fonts/PPEDITORIALOLD-REGULAR.OTF") format("opentype");
+  src: url("../fonts/PPEDITORIALOLD-REGULAR.OTF") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "PP Editorial Italic";
-  src: url("assets/fonts/PPEDITORIALOLD-ITALIC.OTF") format("opentype");
+  src: url("../fonts/PPEDITORIALOLD-ITALIC.OTF") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
